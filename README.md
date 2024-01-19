@@ -27,8 +27,8 @@
 
 ## Screenshots 📸
 
-![desktop bloglist](./src/assets/images/home.png)
-![desktop addform](./src/assets/images/addBlogForm.png)
+![desktop bloglist](./frontend//src/assets/images/home.png)
+![desktop addform](./frontend//src/assets/images/addBlogForm.png)
 
 ## Copatible Screensizes 📱🖥️
 
