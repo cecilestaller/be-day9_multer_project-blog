@@ -2,14 +2,16 @@
     padding: 5%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 24px;
+    gap: 28px;
 
     .singleCard_wrap{
-        border: 1px solid black;
-        background-color: white;
+        border: 1px solid #43766C;
+        background-color: #76453B;
+        color: #F8FAE5;
         padding: 3%;
         border-radius: 8px;
         min-height: 20vh;
+        min-width: 45%;
         &:hover{
             scale: 1.05;
             transition: 0.3s;
@@ -20,6 +22,24 @@
             flex-direction: column;
             justify-content: space-between;
             height: 100%;
+
+            div {
+                height: 75%;
+                width: 100%;
+
+                img {
+                    width: 100%;
+			        margin: 0 auto;
+			        aspect-ratio: 2 / 1;
+			        object-fit: cover;
+			        object-position: center;
+                }
+            }
+
+            h3 {
+                font-size: 1.25rem;
+                margin-top: 24px;
+            }
         }
     }
 

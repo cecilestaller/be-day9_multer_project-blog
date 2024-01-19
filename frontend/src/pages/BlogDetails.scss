@@ -5,10 +5,11 @@
         border-radius: 12px;
         border: none;
         margin-bottom: 8px;
-        background-color: white;
+        background-color: #B19470;
+        color: white;
         &:hover {
             cursor: pointer;
-            background-color: rgb(245, 245, 142);
+            background-color: #76453B;
             scale: 1.125;
         }
     }
@@ -19,6 +20,7 @@
         }
         h2 {
             margin-bottom: 2vh;
+            color: #76453B;
         }
     }
 

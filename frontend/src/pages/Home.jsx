@@ -13,7 +13,7 @@ const Home = ({ blogs, setBlogs }) => {
                 
             </section>
             <div className="home_desc">
-            <h2>It's never to late to learn...</h2>
+            <h2>It's never too late to learn...</h2>
                 <p>Find the perfect blog here to learn what you've always wanted to learn</p>
             </div>
             <BlogList currentBlogs={blogs} updateBlogs={setBlogs} />

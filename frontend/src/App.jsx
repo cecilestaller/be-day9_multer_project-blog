@@ -18,7 +18,7 @@ function App() {
       .catch((error) => console.log(error))
   }, [])
 
-  console.log(blogs);
+  // console.log(blogs);
 
   return (
     <>

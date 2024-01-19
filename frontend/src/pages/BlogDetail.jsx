@@ -10,7 +10,7 @@ const BlogDetail = ({ blogs, setBlogs }) => {
         return singleBlogObj.id.toString() === detailsPath.toString();
     })
 
-    console.log(filteredBlog);
+    // console.log(filteredBlog);
     
     return (  
         <article className="detailPage_wrap">

@@ -42,7 +42,7 @@ const Admin = ({ blogs, setBlogs }) => {
         setBlogContent("");
     }
 
-    console.log("Admin Log: ", blogs);
+    // console.log("Admin Log: ", blogs);
 
     return (  
         <>
@@ -55,7 +55,7 @@ const Admin = ({ blogs, setBlogs }) => {
                     <h2>NEW POST</h2>
 
                     <input type="text" name="" id="" 
-                    placeholder="title..."
+                    placeholder="Blogtitle..."
                     value={blogTitle}
                     onChange={(e) => setBlogTitle(e.target.value)}
                     />
@@ -66,6 +66,7 @@ const Admin = ({ blogs, setBlogs }) => {
                     />
 
                     <textarea name="" id="" cols="30" rows="10"
+                    placeholder="content"
                     value={blogContent}
                     onChange={(e) => setBlogContent(e.target.value)}
                     ></textarea>

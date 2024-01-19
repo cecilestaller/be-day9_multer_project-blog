@@ -15,7 +15,6 @@ a {
 }
 
 body {
-  background: rgb(230,230,230);
-  background: linear-gradient(90deg, rgba(230,230,230,1) 0%, rgb(247, 243, 189) 69%);
+  background-color: #F8FAE5;
   font-family: sans-serif;
 }
