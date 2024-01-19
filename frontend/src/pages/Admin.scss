@@ -1,0 +1,34 @@
+.admin_wrap {
+    // text-align: center;
+    button {
+        padding: 8px;
+        border-radius: 12px;
+        border: none;
+        margin: 8px;
+        background-color: white;
+        &:hover {
+            cursor: pointer;
+            background-color: rgb(245, 245, 142);
+            scale: 1.125;
+            transition: 0.3s;
+        }
+    }
+    form {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        max-width: 50%;
+        margin: 0 auto;
+        h2 {
+            margin-bottom: 2vh;
+        }
+        input {
+            padding: 8px;
+            margin-bottom: 1vh;
+        }
+        .publish {
+            margin-top: 2vh;
+            padding: 12px;
+        }
+    }
+}

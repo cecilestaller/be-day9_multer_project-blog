@@ -1,0 +1,26 @@
+main{
+    .header{
+        height: 40vh;
+        background-image: url("./../../public/images/learn.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        button {
+            padding: 8px;
+            border-radius: 12px;
+            border: none;
+            margin: 8px;
+            background-color: white;
+            &:hover {
+                cursor: pointer;
+                background-color: rgb(245, 245, 142);
+                scale: 1.125;
+                transition: 0.3s;
+            }
+        }
+    }
+    .home_desc {
+        text-align: center;
+        margin-block: 2vh;
+    }
+}

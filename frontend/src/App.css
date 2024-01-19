@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  background: rgb(230,230,230);
+  background: linear-gradient(90deg, rgba(230,230,230,1) 0%, rgb(247, 243, 189) 69%);
+  font-family: sans-serif;
+}

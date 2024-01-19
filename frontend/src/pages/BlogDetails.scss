@@ -1,0 +1,25 @@
+.detailPage_wrap {
+    padding: 3%;
+    button {
+        padding: 8px;
+        border-radius: 12px;
+        border: none;
+        margin-bottom: 8px;
+        background-color: white;
+        &:hover {
+            cursor: pointer;
+            background-color: rgb(245, 245, 142);
+            scale: 1.125;
+        }
+    }
+    div {
+        margin-top: 2vh;
+        img {
+            margin-block: 3vh;
+        }
+        h2 {
+            margin-bottom: 2vh;
+        }
+    }
+
+}
